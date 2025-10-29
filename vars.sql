@@ -1,0 +1,1 @@
+\set csvdir '/Users/Naylanocera/soen363/csvs/files'

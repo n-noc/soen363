@@ -1,0 +1,25 @@
+ diagnosis_id | admission_id | icd_code | icd_version | sequence |                                                            diagnosis_description                                                             
+--------------+--------------+----------+-------------+----------+----------------------------------------------------------------------------------------------------------------------------------------------
+       112344 |       142345 | 99591    | 9           |        1 | Sepsis
+       112345 |       142345 | 99662    | 9           |        2 | Infection and inflammatory reaction due to other vascular device, implant, and graft
+       112346 |       142345 | 5672     | 9           |        3 | 
+       112347 |       142345 | 40391    | 9           |        4 | Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease
+       112348 |       142345 | 42731    | 9           |        5 | Atrial fibrillation
+       112349 |       142345 | 4280     | 9           |        6 | Congestive heart failure, unspecified
+       112350 |       142345 | 4241     | 9           |        7 | Aortic valve disorders
+       112351 |       142345 | 4240     | 9           |        8 | Mitral valve disorders
+       112352 |       142345 | 2874     | 9           |        9 | 
+       112353 |       142345 | 03819    | 9           |       10 | Other staphylococcal septicemia
+       112354 |       142345 | 7850     | 9           |       11 | Tachycardia, unspecified
+       112355 |       142345 | E8791    | 9           |       12 | Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure
+       112356 |       142345 | V090     | 9           |       13 | Infection with microorganisms resistant to penicillins
+       112357 |       142345 | 56211    | 9           |       14 | Diverticulitis of colon (without mention of hemorrhage)
+       112358 |       142345 | 28529    | 9           |       15 | Anemia of other chronic disease
+       112359 |       142345 | 25000    | 9           |       16 | Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled
+       112360 |       142345 | V5867    | 9           |       17 | Long-term (current) use of insulin
+       112361 |       142345 | E9342    | 9           |       18 | Anticoagulants causing adverse effects in therapeutic use
+       112362 |       142345 | 41401    | 9           |       19 | Coronary atherosclerosis of native coronary artery
+       112363 |       142345 | 2749     | 9           |       20 | Gout, unspecified
+       112364 |       142345 | 3051     | 9           |       21 | Tobacco use disorder
+(21 rows)
+

@@ -1,0 +1,9 @@
+ icd_code | icd_version |                           diagnosis_description                           | diagnosis_count 
+----------+-------------+---------------------------------------------------------------------------+-----------------
+ 4019     | 9           | Unspecified essential hypertension                                        |            3901
+ 4280     | 9           | Congestive heart failure, unspecified                                     |            2818
+ 42731    | 9           | Atrial fibrillation                                                       |            2503
+ 41401    | 9           | Coronary atherosclerosis of native coronary artery                        |            2461
+ V053     | 9           | Need for prophylactic vaccination and inoculation against viral hepatitis |            1968
+(5 rows)
+

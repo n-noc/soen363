@@ -1,0 +1,5 @@
+ admission_id | patient_id |     admit_time      |   discharge_time    | visit_type | insurance_plan | marital_status |    arrival_source    | discharge_location 
+--------------+------------+---------------------+---------------------+------------+----------------+----------------+----------------------+--------------------
+       195632 |        123 | 2161-10-29 02:27:00 | 2161-11-01 11:37:00 | EMERGENCY  | Government     | SINGLE         | EMERGENCY ROOM ADMIT | HOME
+(1 row)
+

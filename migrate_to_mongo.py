@@ -6,7 +6,7 @@ import psycopg2.extras
 from pymongo import MongoClient
 
 
-# ---------- CONFIG ----------
+# Config
 
 PG_CONFIG = {
     "dbname": "soen363",
@@ -18,7 +18,7 @@ MONGO_URI = "mongodb://localhost:27017"
 MONGO_DB_NAME = "soen363_phase2"
 
 
-# ---------- CONNECTIONS ----------
+# Connections
 
 def get_pg_conn():
     return psycopg2.connect(**PG_CONFIG)
@@ -29,7 +29,7 @@ def get_mongo_db():
     return client[MONGO_DB_NAME]
 
 
-# ---------- HELPERS ----------
+# Helper group_by function
 
 def group_by(rows, key):
     grouped = defaultdict(list)
@@ -38,7 +38,7 @@ def group_by(rows, key):
     return grouped
 
 
-# ---------- MAIN MIGRATION ----------
+# Migration from SQL to MongoDB
 
 def migrate():
     pg_conn = get_pg_conn()
@@ -99,7 +99,7 @@ def migrate():
         diag_dict_col.insert_many(diag_dict_docs)
         print("Inserted diagnosis dictionary into Mongo.")
 
-    # ---------- Build and insert patients ----------
+    # Build and insert patients 
 
     BATCH_SIZE = 1000
     patient_docs_batch = []
@@ -194,7 +194,7 @@ def migrate():
 
     print(f"Total patients inserted into MongoDB: {total_inserted}")
 
-    # ---------- Create indexes ----------
+    # Indexes
     print("Creating MongoDB indexes...")
 
     patients_col.create_index("patientId")
